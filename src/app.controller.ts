@@ -14,4 +14,9 @@ export class AppController {
   getBlubb(): string {
     return 'blubb';
   }
+
+  @Get()
+  getBlob(): string {
+    return 'blob';
+  }
 }
